@@ -77,6 +77,18 @@
     a {
       color: #ffd700;
     }
+    .image-collage {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 1rem;
+    }
+    .image-collage img {
+      width: 24%;
+      height: auto;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
@@ -86,14 +98,19 @@
 
   <div class="hero">
     <h2>Discover Oxford with a local expert</h2>
-    <p>Weekday tours at 10am & 12 noon · Weekend tours all day · Tailored experiences available</p>
+    <p>Weekday tours at 10am, 1pm and 3pm · Weekend tours all day · Tailored experiences available</p>
     <button onclick="window.location.href='https://calendly.com/oxfordexplorers'">Book a Tour</button>
   </div>
 
   <section>
     <h3>About the Tours</h3>
     <p>Join us on a journey through Oxford’s rich history, hidden corners, and iconic colleges. Our tours are engaging, personal, and designed to show you the city like a local.</p>
-    <div class="photo-placeholder"></div>
+    <div class="image-collage">
+      <img src="images/sheldonian.jpg" alt="Sheldonian Theatre">
+      <img src="images/exeter-chapel.jpg" alt="Exeter College Chapel">
+      <img src="images/radcliffe-camera-new.jpg" alt="Radcliffe Camera">
+      <img src="images/turl-street.jpg" alt="Turl Street View">
+    </div>
   </section>
 
   <section>
